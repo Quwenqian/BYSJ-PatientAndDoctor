@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bysj.patientanddoctor.AddReplyActivity">
+    <TextView
+        android:id="@+id/add_reply_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/add_reply_user_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/add_reply_user_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/add_reply_cond_symptom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/add_reply_cond_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/add_reply_cond_detial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/add_reply_et"
+        android:hint="请输入症状详细描述"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left|top"
+        android:inputType="textImeMultiLine"
+        android:minLines="8"
+        android:layout_marginTop="5dp"/>
+
+
+    <Button
+        android:id="@+id/add_reply_btn"
+        android:text="确认添加"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cricle_btn"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+</LinearLayout>

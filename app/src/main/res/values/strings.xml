@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PatientAndDoctor</string>
+    <string name="spinner_prompt">选择角色</string>
+</resources>
