@@ -6,6 +6,6 @@
   -SQLite DB
   
 ### 功能展示
-![image]()
+![image](https://github.com/Quwenqian/BYSJ-PatientAndDoctor/blob/master/img.png)
 
 
